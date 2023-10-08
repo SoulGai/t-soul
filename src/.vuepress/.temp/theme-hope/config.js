@@ -1,14 +1,14 @@
 import { defineClientConfig } from "@vuepress/client";
-import { VPLink } from "/Users/gai/Documents/t-soul/node_modules/vuepress-shared/lib/client/index.js";
+import { VPLink } from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-shared/lib/client/index.js";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/gai/Documents/t-soul/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineAutoCatalogIconComponent } from "/Users/gai/Documents/t-soul/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
-import { GlobalEncrypt, LocalEncrypt } from "/Users/gai/Documents/t-soul/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "/Users/gai/Documents/t-soul/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
-import Slide from "/Users/gai/Documents/t-soul/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
+import { defineAutoCatalogIconComponent } from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { GlobalEncrypt, LocalEncrypt } from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import Slide from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "/Users/gai/Documents/t-soul/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineAutoCatalogIconComponent(HopeIcon);
 

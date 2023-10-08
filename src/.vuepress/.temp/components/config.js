@@ -1,13 +1,13 @@
 import { defineClientConfig } from "@vuepress/client";
-import { hasGlobalComponent } from "/Users/gai/Documents/t-soul/node_modules/vuepress-shared/lib/client/index.js";
+import { hasGlobalComponent } from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-shared/lib/client/index.js";
 import { h } from "vue";
 
-import { useScriptTag } from "/Users/gai/Documents/t-soul/node_modules/@vueuse/core/index.mjs";
-import Badge from "/Users/gai/Documents/t-soul/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "/Users/gai/Documents/t-soul/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "/Users/gai/Documents/t-soul/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useScriptTag } from "/Users/admin/Documents/gai/t-soul/node_modules/@vueuse/core/index.mjs";
+import Badge from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
-import "/Users/gai/Documents/t-soul/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "/Users/admin/Documents/gai/t-soul/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {
