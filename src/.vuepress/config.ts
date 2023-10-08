@@ -5,7 +5,7 @@ import markdownItPlantuml from 'markdown-it-plantuml'
 
 export default defineUserConfig({
   base: "/",
-  
+  shouldPrefetch: false,
   markdown: {
     headers:{
       level: [2, 3, 4, 5, 6]
