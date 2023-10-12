@@ -173,6 +173,13 @@
 </ol>
 <p>登录成功后返回 <code v-pre>access_token</code>、<code v-pre>refresh_token</code>，其他接口每次请求都要携带 <code v-pre>access_token</code>。</p>
 <p><strong>功能接口</strong>：/front/user/login·</p>
+<h2 id="系统架构图" tabindex="-1"><a class="header-anchor" href="#系统架构图" aria-hidden="true">#</a> 系统架构图</h2>
+<figure><img src="@source/zh/guide/edu/assets/20231007225817.png" alt="后台架构" tabindex="0" loading="lazy"><figcaption>后台架构</figcaption></figure>
+<figure><img src="@source/zh/guide/edu/assets/20231007230814.png" alt="服务间关系" tabindex="0" loading="lazy"><figcaption>服务间关系</figcaption></figure>
+<h2 id="项目创建" tabindex="-1"><a class="header-anchor" href="#项目创建" aria-hidden="true">#</a> 项目创建</h2>
+<figure><img src="@source/zh/guide/edu/assets/20231009234344.png" alt="项目创建" tabindex="0" loading="lazy"><figcaption>项目创建</figcaption></figure>
+<p>注意：bom项目为所有依赖管理，打包方式改为pom</p>
+<figure><img src="@source/zh/guide/edu/assets/20231009235431.png" alt="项目创建" tabindex="0" loading="lazy"><figcaption>项目创建</figcaption></figure>
 </div></template>
 
 
